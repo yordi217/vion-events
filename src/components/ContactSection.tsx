@@ -39,10 +39,10 @@ type ContactFormData = z.infer<typeof contactSchema>;
 const eventTypes = [
   "Wedding",
   "Corporate Event",
-  "Private Party",
-  "Gala/Fundraiser",
+  "Entertainment",
   "Social Event",
   "Community Event",
+  "Catering Corrdination",
   "Other",
 ];
 
@@ -250,14 +250,14 @@ const ContactSection = () => {
                     Email Us
                   </p>
                   <p className="text-muted-foreground text-sm">
-                    hello@eventify.com
+                    Info@vionevents.com
                   </p>
                 </div>
               </a>
 
               {/* Phone */}
               <a
-                href="tel:+15551234567"
+                href="tel:+251944010908"
                 className="flex items-start gap-4 group"
               >
                 <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-accent/20 transition-colors">
@@ -268,14 +268,14 @@ const ContactSection = () => {
                     Call Us
                   </p>
                   <p className="text-muted-foreground text-sm">
-                    +1 (555) 123-4567
+                    +251944010908
                   </p>
                 </div>
               </a>
 
               {/* Instagram */}
               <a
-                href="https://instagram.com/eventify"
+                href="https://instagram.com/@vionevents"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start gap-4 group"
@@ -287,13 +287,13 @@ const ContactSection = () => {
                   <p className="font-medium text-foreground group-hover:text-accent transition-colors">
                     Instagram
                   </p>
-                  <p className="text-muted-foreground text-sm">@eventify</p>
+                  <p className="text-muted-foreground text-sm">@vionevents</p>
                 </div>
               </a>
 
               {/* TikTok */}
               <a
-                href="https://tiktok.com/@eventify"
+                href="https://tiktok.com/@vionevents"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start gap-4 group"
@@ -311,7 +311,7 @@ const ContactSection = () => {
                   <p className="font-medium text-foreground group-hover:text-accent transition-colors">
                     TikTok
                   </p>
-                  <p className="text-muted-foreground text-sm">@eventify</p>
+                  <p className="text-muted-foreground text-sm">@vionevents</p>
                 </div>
               </a>
             </div>

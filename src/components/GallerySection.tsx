@@ -5,15 +5,15 @@ import gallery3 from "@/assets/gallery-3.jpg";
 const galleryImages = [
   {
     src: gallery1,
-    alt: "Corporate conference event with professional staging and lighting",
+    alt: "Celebrating event with colorful lighting and decorations",
   },
   {
     src: gallery2,
-    alt: "Elegant wedding reception with crystal chandeliers and floral arrangements",
+    alt: "Corporate conference event with professional staging and lighting",
   },
   {
     src: gallery3,
-    alt: "Gala dinner event with spectacular lighting and guests in evening attire",
+    alt: "Conference event with audience and speaker on stage",
   },
 ];
 

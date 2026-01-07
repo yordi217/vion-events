@@ -24,7 +24,7 @@ const AboutSection = () => {
                 <CardContent className="p-0">
                   <img
                     src={founderImage}
-                    alt="Sarah Mitchell, Founder of Eventify"
+                    alt="Amanuel Bekele, Founder of Vion Events"
                     className="w-full aspect-[4/5] object-cover"
                   />
                 </CardContent>
@@ -40,16 +40,16 @@ const AboutSection = () => {
           <div className="space-y-6">
             <div>
               <h3 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-2">
-                Sarah Mitchell
+                Amanuel Bekele
               </h3>
               <p className="text-accent font-medium">Founder & Creative Director</p>
             </div>
 
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                With over 12 years of experience in the event industry, I founded
-                Eventify with a simple belief: every event tells a story, and
-                every story deserves to be told beautifully.
+                Iam the founder of VION events, an event management company based 
+                in Addis Ababa, and Hawassa ethiopia, dedicated to creating unforgettable
+                experiences four our clients.
               </p>
               <p>
                 Our journey began in a small office with big dreams. Today, we've

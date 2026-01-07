@@ -3,40 +3,40 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    title: "Tech Innovation Summit 2024",
-    category: "Corporate",
+    title: "Event Planning and Execution",
+    category: "Full-service",
     description:
-      "A 3-day conference for 2,000+ attendees featuring keynote speakers, interactive workshops, and networking events.",
+      "From concept to execution, we plan every detail to ensure your event runs flawlessly and exceeds expectations.",
   },
   {
-    title: "Enchanted Garden Wedding",
-    category: "Wedding",
+    title: "Theme and Budget Designing",
+    category: "Creative",
     description:
-      "An intimate garden ceremony for 150 guests with custom floral installations and fairy-tale inspired décor.",
+      "Creative theme development and strategic budget planning to maximize impact within your investment. We create cohesive visual concepts that reflect your style and objectives.",
   },
   {
-    title: "Annual Charity Gala",
-    category: "Fundraiser",
+    title: "Venue Selection and Setup",
+    category: "Logistics",
     description:
-      "A black-tie fundraising event that raised over $500,000 for local education initiatives.",
+      "Expert venue sourcing and professional setup to create the perfect atmosphere for your event. From intimate spaces to grand halls, we find and transform venues to match your vision.",
   },
   {
-    title: "Product Launch Extravaganza",
-    category: "Corporate",
+    title: "Event Branding and Creative Design",
+    category: "Branding",
     description:
-      "High-energy product reveal with immersive brand experiences, live entertainment, and influencer activations.",
+      "Professional branding solutions and creative design services to make your event visually stunning and memorable. From invitations to signage, we create cohesive brand experiences.",
   },
   {
-    title: "Golden Anniversary Celebration",
-    category: "Private Party",
+    title: "Digital Experience",
+    category: "Virtual",
     description:
-      "A sophisticated celebration honoring 50 years of marriage with elegant dining and nostalgic touches.",
+      "Modern event technology, live streaming, and digital engagement tools to extend your reach.",
   },
   {
-    title: "Summer Music Festival",
-    category: "Community",
+    title: "Entertainment",
+    category: "performances",
     description:
-      "A weekend-long outdoor festival featuring local artists, food vendors, and family-friendly activities.",
+      "Curated entertainment options including live performances, DJs, and interactive experiences.",
   },
 ];
 

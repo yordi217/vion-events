@@ -29,9 +29,9 @@ const services = [
   },
   {
     icon: Mic2,
-    title: "Galas & Fundraisers",
+    title: "Entertainment events",
     description:
-      "Elegant charity events and award ceremonies that inspire generosity and celebrate achievements.",
+      "Energetic live performances and interactive entertainment experiences.",
   },
   {
     icon: Gift,

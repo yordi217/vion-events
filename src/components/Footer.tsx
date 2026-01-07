@@ -24,7 +24,7 @@ const Footer = () => {
             {/* Logo */}
             <div className="flex items-center gap-2">
               <span className="font-display text-2xl font-bold text-primary-foreground">
-                Eventify
+                Vion Events
               </span>
             </div>
 
@@ -44,7 +44,7 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex items-center gap-4">
               <a
-                href="https://instagram.com/eventify"
+                href="https://instagram.com/@vionevents"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-foreground/60 hover:text-accent transition-colors"
@@ -55,7 +55,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://tiktok.com/@eventify"
+                href="https://tiktok.com/@vionevents"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary-foreground/60 hover:text-accent transition-colors"
@@ -73,7 +73,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-primary-foreground/60 text-sm text-center">
-            © {currentYear} Eventify. All rights reserved.
+            © {currentYear} Vion Events. All rights reserved.
           </p>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -37,23 +38,36 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
+      {/* Logo fixed at viewport top-left */}
+      <a
+        href="#home"
+        onClick={(e) => {
+          e.preventDefault();
+          scrollToSection("#home");
+        }}
+        className="fixed top-0 left-0 m-4 z-50"
+      >
+        <img src={logo} alt="Vion Events Logo" className="h-10 w-auto" />
+      </a>
+
       <div className="container-narrow">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+
+          {/* Brand Text (centered) */}
           <a
             href="#home"
             onClick={(e) => {
               e.preventDefault();
               scrollToSection("#home");
             }}
-            className="flex items-center gap-2"
+            className="flex items-center justify-center flex-1 h-full"
           >
             <span
               className={`font-display text-2xl font-bold tracking-tight transition-colors ${
                 isScrolled ? "text-primary" : "text-primary-foreground"
               }`}
             >
-              Eventify
+              {/*Vion Events*/}
             </span>
           </a>
 
@@ -73,7 +87,6 @@ const Navbar = () => {
               </button>
             ))}
           </div>
-
 
           {/* Mobile Menu Button */}
           <button
