@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
@@ -75,16 +74,6 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button
-              variant={isScrolled ? "accentSolid" : "hero"}
-              size="sm"
-              onClick={() => scrollToSection("#contact")}
-            >
-              Get Quote
-            </Button>
-          </div>
 
           {/* Mobile Menu Button */}
           <button
@@ -120,13 +109,6 @@ const Navbar = () => {
                   {link.name}
                 </button>
               ))}
-              <Button
-                variant="accentSolid"
-                className="mt-2"
-                onClick={() => scrollToSection("#contact")}
-              >
-                Get Quote
-              </Button>
             </div>
           </div>
         )}
